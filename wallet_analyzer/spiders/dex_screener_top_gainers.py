@@ -1,9 +1,8 @@
 # Import libraries
 import scrapy
-from wallet_analyzer.helper_functions import *
 from wallet_analyzer.inputs import custom_scrapy_settings
+from wallet_analyzer.helper_functions import *
 import re
-
 
 class DexScreenerTopGainersSpider(scrapy.Spider):
     name = "dex_screener_top_gainers"

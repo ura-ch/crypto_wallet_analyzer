@@ -1,11 +1,9 @@
 # Import libraries
 import scrapy
-from wallet_analyzer.inputs import custom_scrapy_settings
-from helper_functions import *
-import re
+from wallet_analyzer.inputs import custom_scrapy_settings  # Импорт ПЕРЕД использованием
+from wallet_analyzer.helper_functions import *
 import json
 import pandas as pd
-
 
 class DexScreenerTopTradersSpider(scrapy.Spider):
     name = "dex_screener_top_traders"
