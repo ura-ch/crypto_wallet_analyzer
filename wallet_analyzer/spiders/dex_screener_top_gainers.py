@@ -1,7 +1,7 @@
 # Import libraries
 import scrapy
-from wallet_analyzer.spiders.inputs import custom_scrapy_settings
-from helper_functions import *
+from wallet_analyzer.helper_functions import *
+from wallet_analyzer.inputs import custom_scrapy_settings
 import re
 
 

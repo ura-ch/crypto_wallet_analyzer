@@ -1,6 +1,6 @@
 # Import libraries
 import scrapy
-from wallet_analyzer.spiders.inputs import custom_scrapy_settings
+from wallet_analyzer.inputs import custom_scrapy_settings
 import json
 import pandas as pd
 
